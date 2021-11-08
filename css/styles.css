@@ -1,13 +1,108 @@
-.body {
-    outline: 2px solid red;
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, .body {
     display: flex;
     flex-flow: column nowrap;
 }
 
+a {
+    text-decoration: none;
+}
+
 .section-one {
     outline: 2px solid red;
+    background-color: #1f2937;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.header {
     display: flex;
     flex-flow: row nowrap;
+    align-items: center;
+    margin-top: 24px;
+    gap: 16px;
+    color: white;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+    margin-left: 16%;
+}
+
+.header-links {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: 8%;
+    gap: 16px;
+}
+
+.header-link {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.content-one {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 64px;
+    margin-left: 16%;
+    margin-right: 8%;
+    margin-bottom: 64px;
+    gap: 64px;
+}
+
+.content-one-left {
+    flex: 0 1 40%;
+    display: flex;
+    place-content: space-between flex-start;
+    flex-flow: column nowrap;
+    gap: 16px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.content-one-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.content-one-right {
+    flex: 0 1 50%;
+    place-content: space-between flex-end;
+    margin-left: auto;
+    min-height: 300px;
+}
+
+.button-sign {
+    color: white;
+    background-color: #49A5FF;
+    font-size: 18px;
+    padding: 8px 16px;
+    width: 126px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+}
+
+.content-one-image {
+    max-width: 100%;
+    margin-left: auto;
+    flex: 0 1 auto;
+    justify-self: end;
 }
 
 .section-two {
@@ -32,4 +127,10 @@
     outline: 2px solid red;
     display: flex;
     flex-flow: row nowrap;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: auto;
+    padding: 16px;
+    color: white;
+    background-color: #1f2937;
 }

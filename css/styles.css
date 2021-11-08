@@ -148,8 +148,27 @@ h2 {
 
 .section-three {
     outline: 2px solid red;
+    background-color: #e5e7eb;
+}
+
+.content-three {
+    outline: 2px solid green;
+    margin-left: 16%;
+    margin-right: 8%;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
+    padding: 0px 126px
+}
+
+.content-three p {
+    font-size: 36px;
+    margin-top: 126px;
+}
+
+.content-three h3 {
+    margin-bottom: 126px;
+    margin-left: auto;
+    margin-right: 16px;
 }
 
 .section-four {

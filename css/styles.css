@@ -14,7 +14,6 @@ a {
 }
 
 .section-one {
-    outline: 2px solid red;
     background-color: #1f2937;
     display: flex;
     flex-flow: column nowrap;
@@ -106,9 +105,45 @@ h1 {
 }
 
 .section-two {
-    outline: 2px solid red;
+    margin-top: 64px;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 16px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 900;
+}
+.image-two {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+    gap: 8px;
+}
+
+.image-two img {
+    border: none;
+    border-radius: 16px;
+    width: 180px;
+    height: 180px
+}
+
+.image-two p {
+    text-align: center;
+}
+
+.content-two {
+    margin-top: 32px;
+    margin-left: 16%;
+    margin-right: 8%;
+    margin-bottom: 126px;
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
 }
 
 .section-three {

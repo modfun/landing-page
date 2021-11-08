@@ -1,0 +1,35 @@
+.body {
+    outline: 2px solid red;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.section-one {
+    outline: 2px solid red;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.section-two {
+    outline: 2px solid red;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.section-three {
+    outline: 2px solid red;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.section-four {
+    outline: 2px solid red;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.footer {
+    outline: 2px solid red;
+    display: flex;
+    flex-flow: row nowrap;
+}

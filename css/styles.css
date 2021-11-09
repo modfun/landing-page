@@ -205,7 +205,6 @@ h2 {
 }
 
 .footer {
-    outline: 2px solid red;
     display: flex;
     flex-flow: row nowrap;
     justify-content:space-evenly;
@@ -214,4 +213,9 @@ h2 {
     padding: 16px;
     color: white;
     background-color: #1f2937;
+}
+
+.footer p {
+    margin-top:16px;
+    margin-bottom: 16px;
 }

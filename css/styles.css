@@ -186,7 +186,6 @@ h2 {
     border: none;
     border-radius: 8px;
     display: flex;
-    flex-flow: row nowrap;
     align-items: center;
     padding: 64px 126px;
     margin-top: 126px;
@@ -199,6 +198,7 @@ h2 {
 .content-four-left {
     color: white;
 }
+
 .button-two {
     border: 2px solid white;
     flex: 0 0 auto;
@@ -206,7 +206,6 @@ h2 {
 
 .footer {
     display: flex;
-    flex-flow: row nowrap;
     justify-content:space-evenly;
     align-items: center;
     margin-top: auto;
